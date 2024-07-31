@@ -24,7 +24,13 @@ export default {
         "#5C4529":"#5C4529"
       },
       borderRadius:{
-        "126px":"126px"
+        "126px":"126px",
+      },
+      screens:{
+        "990px":"990px",
+        "1180px":"1180px",
+        "800px":"800px",
+        "600px":"600px"
       }
     },
   },
