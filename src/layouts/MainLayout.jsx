@@ -3,11 +3,11 @@ import Header from "../components/Header";
 import { Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 
-const MainLayout = () => {
+const MainLayout = ({currentUser}) => {
   return (
     <div className="flex flex-col min-h-screen ">
       <div className="">
-        <Header />
+        <Header currentUser={currentUser}/>
       </div>
       <main className="grow">
         <Outlet />
