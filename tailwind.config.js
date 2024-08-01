@@ -21,7 +21,8 @@ export default {
         "#FF8A00":"#FF8A00",
         "#FF3838":"#FF3838",
         "#3FA72F":"#3FA72F",
-        "#5C4529":"#5C4529"
+        "#5C4529":"#5C4529",
+        "#3FC66E":"#3FC66E"
       },
       borderRadius:{
         "126px":"126px",

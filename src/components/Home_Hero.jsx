@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import home_hero_img from "../assets/img/home_hero_img.png";
 const Home_Hero = () => {
   return (
-    <section className="pt-[100px] 1180px:pb-[216px] pb-[100px] bg-white">
+    <section className="pt-[100px] 1180px:pb-[150px] pb-[100px] bg-white">
       <div className="containerb 1180px:flex items-center justify-between block space-y-16">
         <div className="flex justify-center items-center">
           <div>
