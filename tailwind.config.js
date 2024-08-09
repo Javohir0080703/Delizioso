@@ -22,7 +22,9 @@ export default {
         "#FF3838":"#FF3838",
         "#3FA72F":"#3FA72F",
         "#5C4529":"#5C4529",
-        "#3FC66E":"#3FC66E"
+        "#3FC66E":"#3FC66E",
+        "#FFF4E7":"#FFF4E7",
+        "#A08D76":"#A08D76"
       },
       borderRadius:{
         "126px":"126px",
@@ -32,6 +34,9 @@ export default {
         "1180px":"1180px",
         "800px":"800px",
         "600px":"600px"
+      },
+      margin:{
+        "50px":"50px"
       }
     },
   },
