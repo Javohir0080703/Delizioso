@@ -18,6 +18,14 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.cta_bg_img {
+  width: 100%;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-image: url(./assets/img/Cta_bg.png);
+}
 
 li .active{
   color: #FF8A00;
