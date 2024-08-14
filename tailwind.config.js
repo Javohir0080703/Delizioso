@@ -33,7 +33,8 @@ export default {
         "990px":"990px",
         "1180px":"1180px",
         "800px":"800px",
-        "600px":"600px"
+        "600px":"600px",
+        "670px":"670px",
       },
       margin:{
         "50px":"50px"

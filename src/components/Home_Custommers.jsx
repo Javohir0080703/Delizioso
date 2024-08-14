@@ -8,7 +8,7 @@ import "swiper/css/autoplay";
 // import required modules
 import { Autoplay } from "swiper/modules";
 
-const Greate_Shefs = () => {
+const Home_Custommers = () => {
   const [customers, setCustomers] = useState(1);
   return (
     <section className="pt-[75px] 600px:pb-[200px] pb-[80px] bg-white">
@@ -20,7 +20,7 @@ const Greate_Shefs = () => {
           {customers_data.map((e) => {
             if (e.id === customers) {
               return (
-                <div>
+                <div key={e.id}>
                   <img
                     className="w-full lg:max-w-[261px] max-w-[200px] mx-auto mb-10 object-cover"
                     src={e.img}
@@ -96,4 +96,4 @@ const Greate_Shefs = () => {
   );
 };
 
-export default Greate_Shefs;
+export default Home_Custommers;
